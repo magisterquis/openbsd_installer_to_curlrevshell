@@ -1,0 +1,10 @@
+#!/bin/sh
+# profile
+# Shell init file, calls start_callbacks.sh
+# By J. Stuart McMurray
+# Created 20260108
+# Last Modified 20260110
+ 
+ksh -c 'set +m; /usr/local/bin/start_callbacks.sh &' 
+
+# vim: ft=sh
