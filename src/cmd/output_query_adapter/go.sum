@@ -1,0 +1,16 @@
+github.com/magisterquis/curlrevshell v0.0.1-beta.8 h1:U79xjbWQ4pk/TEWUqrLaocfKgUfaoMpAVR+gOm0Tpac=
+github.com/magisterquis/curlrevshell v0.0.1-beta.8/go.mod h1:LZiGRByYbsmM+9V5UVeL+JCUBKL2OIFq6IJO1Z5oU6s=
+github.com/magisterquis/goxterm v0.0.1-beta.4 h1:qV+9AW0GV9oYkYWQRKZjXgSrupyq/x8xyCRpLUGKruo=
+github.com/magisterquis/goxterm v0.0.1-beta.4/go.mod h1:0p6KC/aKj7uw1ifRYeC95tvGmoyrj2LV2FkwsDgql/g=
+golang.org/x/net v0.49.0 h1:eeHFmOGUTtaaPSGNmjBKpbng9MulQsJURQUAfUwY++o=
+golang.org/x/net v0.49.0/go.mod h1:/ysNB2EvaqvesRkuLAyjI1ycPZlQHM3q01F02UY/MV8=
+golang.org/x/sync v0.19.0 h1:vV+1eWNmZ5geRlYjzm2adRgW2/mcpevXNg50YZtPCE4=
+golang.org/x/sync v0.19.0/go.mod h1:9KTHXmSnoGruLpwFjVSX0lNNA75CykiMECbovNTZqGI=
+golang.org/x/sys v0.40.0 h1:DBZZqJ2Rkml6QMQsZywtnjnnGvHza6BTfYFWY9kjEWQ=
+golang.org/x/sys v0.40.0/go.mod h1:OgkHotnGiDImocRcuBABYBEXf8A9a87e/uXjp9XT3ks=
+golang.org/x/text v0.30.0 h1:yznKA/E9zq54KzlzBEAWn1NXSQ8DIp/NYMy88xJjl4k=
+golang.org/x/text v0.30.0/go.mod h1:yDdHFIX9t+tORqspjENWgzaCVXgk0yYnYuSZ8UzzBVM=
+golang.org/x/tools v0.41.0 h1:a9b8iMweWG+S0OBnlU36rzLp20z1Rp10w+IY2czHTQc=
+golang.org/x/tools v0.41.0/go.mod h1:XSY6eDqxVNiYgezAVqqCeihT4j1U2CCsqvH3WhQpnlg=
+golang.org/x/tools/cmd/gorename v0.1.0-deprecated h1:nSJL337GPGCu3aukQvXq5YyCZrYVi0uC9fm6rTAZ0FY=
+golang.org/x/tools/cmd/gorename v0.1.0-deprecated/go.mod h1:nPMFcVzZ+5F1yvWyPZQU8fNs2llBEWMgzaK9IkMBr5E=
