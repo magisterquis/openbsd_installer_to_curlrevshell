@@ -4,7 +4,7 @@
 # Can we make a TLS cert archive?
 # By J. Stuart McMurray
 # Created 20260118
-# Last Modified 20260118
+# Last Modified 20260206
 
 set -euo pipefail
 
@@ -13,7 +13,7 @@ set -euo pipefail
 tap_plan 24
 
 # Start the extractor server
-go run ./mod/lineextractor/lineextractorserver |&
+go run ../../mod/lineextractor/lineextractorserver |&
 cleanup() {
         # Stop the server.
         exec 3>&p

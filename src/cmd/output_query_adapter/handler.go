@@ -12,7 +12,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/magisterquis/openbsd_installer_to_curlrevshell/src/cmd/output_query_adapter/mod/lineextractor"
+	"github.com/magisterquis/openbsd_installer_to_curlrevshell/src/mod/lineextractor"
 )
 
 // idParam is used to extract an ID from a URL path.

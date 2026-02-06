@@ -5,7 +5,7 @@ package main
  * Tests for handler.go
  * By J. Stuart McMurray
  * Created 20260117
- * Last Modified 20260205
+ * Last Modified 20260206
  */
 
 import (
@@ -18,7 +18,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/magisterquis/openbsd_installer_to_curlrevshell/src/cmd/output_query_adapter/mod/testlogger"
+	"github.com/magisterquis/openbsd_installer_to_curlrevshell/src/mod/testlogger"
 )
 
 // testLineHandler mocks ConnManager

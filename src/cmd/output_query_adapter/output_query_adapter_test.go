@@ -5,7 +5,7 @@ package main
  * Tests for output_query_adapter.go
  * By J. Stuart McMurray
  * Created 20260118
- * Last Modified 20260119
+ * Last Modified 20260208
  */
 
 import (
@@ -16,7 +16,7 @@ import (
 	"testing"
 
 	"github.com/magisterquis/curlrevshell/lib/sstls"
-	"github.com/magisterquis/openbsd_installer_to_curlrevshell/src/cmd/output_query_adapter/mod/testlogger"
+	"github.com/magisterquis/openbsd_installer_to_curlrevshell/src/mod/testlogger"
 )
 
 // Does our HTTP client work as expected?

@@ -1,4 +1,4 @@
-module github.com/magisterquis/openbsd_installer_to_curlrevshell/src/cmd/output_query_adapter
+module github.com/magisterquis/openbsd_installer_to_curlrevshell
 
 go 1.25.7
 
